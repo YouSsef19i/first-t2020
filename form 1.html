@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>
+            form.joe
+        </title>
+        <link rel="stylesheet" type="text/css" href="form style.css">
+
+    </head>
+
+    <body>
+
+        
+        <form  action="phprules.php" method="post" enctype="multipart/form-data">
+            <div class="container">
+                <label class="col-md-4 control-label">First Name</label><br>
+                <input  name="first_name" placeholder="First Name"  type="text" onkeyup="lettersonly"><br>
+
+                <label class="col-md-4 control-label" >Last Name </label> <br>
+                <input name="last_name" placeholder="Last Name"   type="text" onkeyup="lettersonly"><br>
+
+                <label>phone number:</label><br>     
+                <input type="text" name="number" placeholder="type your phone" maxlength="11"> <br>
+
+                <label>password:</label><br>
+                <input type="number" name="password" placeholder="type your password"> <br>
+
+                <label>email:</label><br>
+                <input type="email" name="email" placeholder="type your email"> <br>
+                <br>
+                <input type="file" value="img" name="img" id="fileToUpload">
+                 
+                <input type="submit" name="submit">
+            </div>
+        </form>
+
+    </body>
+
+</html>

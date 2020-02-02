@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
+body {
+    color: #73879C;
+    background: #2A3F54; 
+    line-height: 1.471;
+  }
+  .container{
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+
+
+ }
